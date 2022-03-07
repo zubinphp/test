@@ -13,4 +13,9 @@ class Rectangle{
     public function getPerimeter(){
         return 2*($this->length+$this->breadth);
     }
+    
+    public function getDateTime(){
+
+        return date('Y-m-d H:i:s');
+    }
 }
